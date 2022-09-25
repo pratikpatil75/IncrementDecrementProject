@@ -1,0 +1,38 @@
+.box{
+    position:absolute;
+    border:none;
+    transform: translate(-50%,-50%);
+    outline:none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.322);
+    top:50%;
+    left:50%;
+    height: 200px;
+    width:450px;
+}
+
+.value{
+    text-align: center;
+    margin-top:50px;
+}
+#container div{
+    display:inline-block;
+    width:150px;
+    text-align: center;
+}
+#container{
+    margin-top:30px;
+}
+
+.buttons{
+    /* transform: translate(-50%,-50%); */
+    padding:12px 25px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size:0.5rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.322);
+}
+
+.buttons:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.322);
+}
